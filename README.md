@@ -1,2 +1,2 @@
 # Machine-Learning-iOS-Tutorial
-Integrating Machine learning Models in iOS Applications
+This is the sourcecode used for "Integrating Machine learning Models in iOS Applications"
