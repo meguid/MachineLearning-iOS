@@ -1,7 +1,5 @@
 # ImageDetection-Example
 
-## Steps
-
 #### - Create new Xcode project.
 #### - Download [MobileNet Model](https://developer.apple.com/machine-learning/build-run-models) and drag-drop to your project.
 #### - Add "Privacy - Photo Library Usage Description" to your Info.plist file.
