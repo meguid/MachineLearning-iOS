@@ -1,6 +1,6 @@
 # CoreML-Converter
 
-#### - [Download](https://github.com/shicai/MobileNet-Caffe) “mobilenet.caffemodel”, “mobilenet_deploy.prototxt” and “synset.txt”
+#### - [Download](https://github.com/shicai/MobileNet-Caffe) "mobilenet.caffemodel", "mobilenet_deploy.prototxt" and "synset.txt"
 #### - Install Tools
 
 ```bash
