@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF0BEC95214C730B005A7CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0BEC94214C730B005A7CAE /* AppDelegate.swift */; };
+		BF0BEC97214C730B005A7CAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0BEC96214C730B005A7CAE /* ViewController.swift */; };
+		BF0BEC9A214C730B005A7CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0BEC98214C730B005A7CAE /* Main.storyboard */; };
+		BF0BEC9C214C730E005A7CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0BEC9B214C730E005A7CAE /* Assets.xcassets */; };
+		BF0BEC9F214C730E005A7CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0BEC9D214C730E005A7CAE /* LaunchScreen.storyboard */; };
+		BF0BECAA214C730E005A7CAE /* FirebaseML_TextRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0BECA9214C730E005A7CAE /* FirebaseML_TextRecognitionTests.swift */; };
+		BF0BECB5214C730E005A7CAE /* FirebaseML_TextRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0BECB4214C730E005A7CAE /* FirebaseML_TextRecognitionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF0BECA6214C730E005A7CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0BEC89214C730A005A7CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0BEC90214C730B005A7CAE;
+			remoteInfo = "FirebaseML-TextRecognition";
+		};
+		BF0BECB1214C730E005A7CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0BEC89214C730A005A7CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0BEC90214C730B005A7CAE;
+			remoteInfo = "FirebaseML-TextRecognition";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF0BEC91214C730B005A7CAE /* FirebaseML-TextRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FirebaseML-TextRecognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0BEC94214C730B005A7CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF0BEC96214C730B005A7CAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF0BEC99214C730B005A7CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF0BEC9B214C730E005A7CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF0BEC9E214C730E005A7CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF0BECA0214C730E005A7CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0BECA5214C730E005A7CAE /* FirebaseML-TextRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FirebaseML-TextRecognitionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0BECA9214C730E005A7CAE /* FirebaseML_TextRecognitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseML_TextRecognitionTests.swift; sourceTree = "<group>"; };
+		BF0BECAB214C730E005A7CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0BECB0214C730E005A7CAE /* FirebaseML-TextRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FirebaseML-TextRecognitionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0BECB4214C730E005A7CAE /* FirebaseML_TextRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseML_TextRecognitionUITests.swift; sourceTree = "<group>"; };
+		BF0BECB6214C730E005A7CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF0BEC8E214C730B005A7CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0BECA2214C730E005A7CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0BECAD214C730E005A7CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF0BEC88214C730A005A7CAE = {
+			isa = PBXGroup;
+			children = (
+				BF0BEC93214C730B005A7CAE /* FirebaseML-TextRecognition */,
+				BF0BECA8214C730E005A7CAE /* FirebaseML-TextRecognitionTests */,
+				BF0BECB3214C730E005A7CAE /* FirebaseML-TextRecognitionUITests */,
+				BF0BEC92214C730B005A7CAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF0BEC92214C730B005A7CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF0BEC91214C730B005A7CAE /* FirebaseML-TextRecognition.app */,
+				BF0BECA5214C730E005A7CAE /* FirebaseML-TextRecognitionTests.xctest */,
+				BF0BECB0214C730E005A7CAE /* FirebaseML-TextRecognitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF0BEC93214C730B005A7CAE /* FirebaseML-TextRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				BF0BEC94214C730B005A7CAE /* AppDelegate.swift */,
+				BF0BEC96214C730B005A7CAE /* ViewController.swift */,
+				BF0BEC98214C730B005A7CAE /* Main.storyboard */,
+				BF0BEC9B214C730E005A7CAE /* Assets.xcassets */,
+				BF0BEC9D214C730E005A7CAE /* LaunchScreen.storyboard */,
+				BF0BECA0214C730E005A7CAE /* Info.plist */,
+			);
+			path = "FirebaseML-TextRecognition";
+			sourceTree = "<group>";
+		};
+		BF0BECA8214C730E005A7CAE /* FirebaseML-TextRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF0BECA9214C730E005A7CAE /* FirebaseML_TextRecognitionTests.swift */,
+				BF0BECAB214C730E005A7CAE /* Info.plist */,
+			);
+			path = "FirebaseML-TextRecognitionTests";
+			sourceTree = "<group>";
+		};
+		BF0BECB3214C730E005A7CAE /* FirebaseML-TextRecognitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF0BECB4214C730E005A7CAE /* FirebaseML_TextRecognitionUITests.swift */,
+				BF0BECB6214C730E005A7CAE /* Info.plist */,
+			);
+			path = "FirebaseML-TextRecognitionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF0BEC90214C730B005A7CAE /* FirebaseML-TextRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0BECB9214C730E005A7CAE /* Build configuration list for PBXNativeTarget "FirebaseML-TextRecognition" */;
+			buildPhases = (
+				BF0BEC8D214C730B005A7CAE /* Sources */,
+				BF0BEC8E214C730B005A7CAE /* Frameworks */,
+				BF0BEC8F214C730B005A7CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FirebaseML-TextRecognition";
+			productName = "FirebaseML-TextRecognition";
+			productReference = BF0BEC91214C730B005A7CAE /* FirebaseML-TextRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF0BECA4214C730E005A7CAE /* FirebaseML-TextRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0BECBC214C730E005A7CAE /* Build configuration list for PBXNativeTarget "FirebaseML-TextRecognitionTests" */;
+			buildPhases = (
+				BF0BECA1214C730E005A7CAE /* Sources */,
+				BF0BECA2214C730E005A7CAE /* Frameworks */,
+				BF0BECA3214C730E005A7CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF0BECA7214C730E005A7CAE /* PBXTargetDependency */,
+			);
+			name = "FirebaseML-TextRecognitionTests";
+			productName = "FirebaseML-TextRecognitionTests";
+			productReference = BF0BECA5214C730E005A7CAE /* FirebaseML-TextRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF0BECAF214C730E005A7CAE /* FirebaseML-TextRecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0BECBF214C730E005A7CAE /* Build configuration list for PBXNativeTarget "FirebaseML-TextRecognitionUITests" */;
+			buildPhases = (
+				BF0BECAC214C730E005A7CAE /* Sources */,
+				BF0BECAD214C730E005A7CAE /* Frameworks */,
+				BF0BECAE214C730E005A7CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF0BECB2214C730E005A7CAE /* PBXTargetDependency */,
+			);
+			name = "FirebaseML-TextRecognitionUITests";
+			productName = "FirebaseML-TextRecognitionUITests";
+			productReference = BF0BECB0214C730E005A7CAE /* FirebaseML-TextRecognitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF0BEC89214C730A005A7CAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ahmed Abdel Meguid";
+				TargetAttributes = {
+					BF0BEC90214C730B005A7CAE = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					BF0BECA4214C730E005A7CAE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BF0BEC90214C730B005A7CAE;
+					};
+					BF0BECAF214C730E005A7CAE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BF0BEC90214C730B005A7CAE;
+					};
+				};
+			};
+			buildConfigurationList = BF0BEC8C214C730A005A7CAE /* Build configuration list for PBXProject "FirebaseML-TextRecognition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF0BEC88214C730A005A7CAE;
+			productRefGroup = BF0BEC92214C730B005A7CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF0BEC90214C730B005A7CAE /* FirebaseML-TextRecognition */,
+				BF0BECA4214C730E005A7CAE /* FirebaseML-TextRecognitionTests */,
+				BF0BECAF214C730E005A7CAE /* FirebaseML-TextRecognitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF0BEC8F214C730B005A7CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0BEC9F214C730E005A7CAE /* LaunchScreen.storyboard in Resources */,
+				BF0BEC9C214C730E005A7CAE /* Assets.xcassets in Resources */,
+				BF0BEC9A214C730B005A7CAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0BECA3214C730E005A7CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0BECAE214C730E005A7CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF0BEC8D214C730B005A7CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0BEC97214C730B005A7CAE /* ViewController.swift in Sources */,
+				BF0BEC95214C730B005A7CAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0BECA1214C730E005A7CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0BECAA214C730E005A7CAE /* FirebaseML_TextRecognitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0BECAC214C730E005A7CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0BECB5214C730E005A7CAE /* FirebaseML_TextRecognitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF0BECA7214C730E005A7CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0BEC90214C730B005A7CAE /* FirebaseML-TextRecognition */;
+			targetProxy = BF0BECA6214C730E005A7CAE /* PBXContainerItemProxy */;
+		};
+		BF0BECB2214C730E005A7CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0BEC90214C730B005A7CAE /* FirebaseML-TextRecognition */;
+			targetProxy = BF0BECB1214C730E005A7CAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF0BEC98214C730B005A7CAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0BEC99214C730B005A7CAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF0BEC9D214C730E005A7CAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0BEC9E214C730E005A7CAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF0BECB7214C730E005A7CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF0BECB8214C730E005A7CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF0BECBA214C730E005A7CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FirebaseML-TextRecognition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meguid.FirebaseML-TextRecognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF0BECBB214C730E005A7CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FirebaseML-TextRecognition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meguid.FirebaseML-TextRecognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF0BECBD214C730E005A7CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FirebaseML-TextRecognitionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meguid.FirebaseML-TextRecognitionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseML-TextRecognition.app/FirebaseML-TextRecognition";
+			};
+			name = Debug;
+		};
+		BF0BECBE214C730E005A7CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FirebaseML-TextRecognitionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meguid.FirebaseML-TextRecognitionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseML-TextRecognition.app/FirebaseML-TextRecognition";
+			};
+			name = Release;
+		};
+		BF0BECC0214C730E005A7CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FirebaseML-TextRecognitionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meguid.FirebaseML-TextRecognitionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FirebaseML-TextRecognition";
+			};
+			name = Debug;
+		};
+		BF0BECC1214C730E005A7CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FirebaseML-TextRecognitionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meguid.FirebaseML-TextRecognitionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FirebaseML-TextRecognition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF0BEC8C214C730A005A7CAE /* Build configuration list for PBXProject "FirebaseML-TextRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0BECB7214C730E005A7CAE /* Debug */,
+				BF0BECB8214C730E005A7CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0BECB9214C730E005A7CAE /* Build configuration list for PBXNativeTarget "FirebaseML-TextRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0BECBA214C730E005A7CAE /* Debug */,
+				BF0BECBB214C730E005A7CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0BECBC214C730E005A7CAE /* Build configuration list for PBXNativeTarget "FirebaseML-TextRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0BECBD214C730E005A7CAE /* Debug */,
+				BF0BECBE214C730E005A7CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0BECBF214C730E005A7CAE /* Build configuration list for PBXNativeTarget "FirebaseML-TextRecognitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0BECC0214C730E005A7CAE /* Debug */,
+				BF0BECC1214C730E005A7CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF0BEC89214C730A005A7CAE /* Project object */;
+}
