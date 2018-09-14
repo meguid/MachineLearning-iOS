@@ -5,7 +5,7 @@ A trained model is the result of applying a machine learning algorithm to a set 
 The easiest way and the most straight-forward one, Core ML is an apple framework and can help you to integrate ML models to your app in just a few lines of code. First I recommend this kick-start [course](https://eg.udacity.com/course/core-ml--ud1038) in Core ML.
 
 ### Option 1: [Demo: ImageDetection-Example]
-Apple provides several popular, open source [models](https://developer.apple.com/machine-learning/build-run-models) that are already in the Core ML model format. You can download these models - which vary from a 5MBs size to a 500MBs size -  and start using them in your app.
+Apple provides several popular, open source [models](https://developer.apple.com/machine-learning/build-run-models) that are already in the Core ML model format. You can download these models - which vary from a 5MBs size to a 500MBs size - and start using them in your app.
 
 Create new Xcode project.
 
@@ -63,7 +63,8 @@ func log(_ results: [String: Double]) {
 }
 ```
 
-### 2 - CoreML-Converter
+### Option 2: [Demo: CoreML-Converter]
+Various research groups and universities publish their models and training data, which may not be in the Core ML model format. To use these models in your app, you need to convert them, as described in [Converting Trained Models to Core ML](https://developer.apple.com/documentation/coreml/converting_trained_models_to_core_ml). Or you can use one of this [already converted models](https://github.com/likedan/Awesome-CoreML-Models).
 
 [Download](https://github.com/shicai/MobileNet-Caffe) "mobilenet.caffemodel", "mobilenet_deploy.prototxt" and "synset.txt"
 
@@ -88,7 +89,8 @@ Deactivate from virtual environment
 deactivate
 ```
 
-### 3 - CreateML-Example
+### Option 3: [Demo: CreateML-Example]
+Using [Create ML](https://developer.apple.com/documentation/createml) with familiar tools like Swift and macOS playgrounds and your own data, you can train custom models on your Mac to perform tasks like recognizing images, extracting meaning from text, or finding relationships between numerical values. Models trained using Create ML are in the Core ML model format and are ready to use in your app.
 
 Download Images about your to be classified objects, for example "Giraffe" and "Elephant".
 
