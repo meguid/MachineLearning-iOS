@@ -1,9 +1,9 @@
 # ImageDetection-Example
 
-#### - Create new Xcode project.
-#### - Download [MobileNet Model](https://developer.apple.com/machine-learning/build-run-models) and drag-drop to your project.
-#### - Add "Privacy - Photo Library Usage Description" to your Info.plist file.
-#### - Add UIImagePickerController for picking images
+#### Create new Xcode project.
+#### Download [MobileNet Model](https://developer.apple.com/machine-learning/build-run-models) and drag-drop to your project.
+#### Add "Privacy - Photo Library Usage Description" to your Info.plist file.
+#### Add UIImagePickerController for picking images
 
 ```swift
 let picker = UIImagePickerController()
@@ -24,7 +24,7 @@ func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
 }
 ```
 
-#### - Predict
+#### Predict
 
 ```swift
 func predict(image: UIImage) {
@@ -35,7 +35,7 @@ func predict(image: UIImage) {
 }
 ```
 
-#### - Log Top Results
+#### Log Top Results
 
 ```swift
 func log(_ results: [String: Double]) {
