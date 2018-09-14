@@ -1,9 +1,13 @@
-# Machine-Learning-iOS-Tutorial
-This is the sourcecode used for "Integrating Machine learning Models in iOS Applications"
+# Integrating Machine learning Models in iOS Applications
+A trained model is the result of applying a machine learning algorithm to a set of training data. The model makes predictions based on new input data. For example, a model that's been trained on a region's historical house prices may be able to predict a house's price when given the number of bedrooms and bathrooms.
 
 ## Core ML
+The easiest way and the most straight-forward one, Core ML is an apple framework and can help you to integrate ML models to your app in just a few lines of code. First I recommend this kick-start [course](https://eg.udacity.com/course/core-ml--ud1038) in Core ML.
 
-### 1 - ImageDetection-Example
+### Option 1: ImageDetection-Example
+Apple provides several popular, open source [models](https://developer.apple.com/machine-learning/build-run-models) that are already in the Core ML model format. You can download these models - which vary from a 5MBs size to a 500MBs size -  and start using them in your app.
+
+#### Demo: ImageDetection-Example
 
 Create new Xcode project.
 
