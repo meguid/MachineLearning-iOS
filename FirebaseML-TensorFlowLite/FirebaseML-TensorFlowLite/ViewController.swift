@@ -20,8 +20,6 @@ class ViewController: UIViewController {
 
     func run() {
         
-        let interpreter = ModelInterpreter(options: ModelOptions(cloudModelName: "my_cloud_model", localModelName: "my_local_model"))
-        
         let ioOptions = ModelInputOutputOptions()
         do {
             try ioOptions.setInputFormat(index: 0, type: .uInt8, dimensions: [1, 640, 480, 3])
@@ -38,6 +36,7 @@ class ViewController: UIViewController {
             print("Failed to add input: \(error.localizedDescription)")
         }
         
+        let interpreter = ModelInterpreter(options: ModelOptions(cloudModelName: "my_cloud_model", localModelName: "my_local_model"))
         interpreter.run(inputs: input, options: ioOptions) { outputs, error in
             guard error == nil, let outputs = outputs else { return }
                 let probabilities = try? outputs.output(index: 0)
@@ -45,15 +44,15 @@ class ViewController: UIViewController {
         }
     }
     
-    func setModel() {
+    func loadModel() {
         if state == .onDevice {
-            ModelManager.modelManager().register(getModelFromLocal())
+            ModelManager.modelManager().register(loadModelFromLocal())
         } else {
-            ModelManager.modelManager().register(getModelFromCloud())
+            ModelManager.modelManager().register(loadModelFromCloud())
         }
     }
     
-    private func getModelFromCloud() -> CloudModelSource {
+    private func loadModelFromCloud() -> CloudModelSource {
         let conditions = ModelDownloadConditions(isWiFiRequired: true, canDownloadInBackground: true)
         return CloudModelSource(
             modelName: "my_cloud_model",
@@ -63,7 +62,7 @@ class ViewController: UIViewController {
         )
     }
     
-    private func getModelFromLocal() -> LocalModelSource {
+    private func loadModelFromLocal() -> LocalModelSource {
         guard let modelPath = Bundle.main.path(
             forResource: "my_model",
             ofType: "tflite"
