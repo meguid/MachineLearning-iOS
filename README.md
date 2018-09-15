@@ -115,6 +115,9 @@ Save your CoreMl model and add it to your project.
 ML Kit lets you bring powerful machine learning features to your app whether it's for Android or iOS, and whether you're an experienced machine learning developer or you're just getting started.
 
 ### Option 1: Ready-To-Use APIs [Demo: FirebaseML-TextRecognition]
+ML Kit comes with a set of ready-to-use APIs for common mobile use cases: recognizing text, detecting faces, scanning barcodes, labeling images and recognizing landmarks. You simply pass in data to the ML Kit library and it will give you the information you need - all in a few lines of code.
+
+ML Kit gives you both on-device and Cloud APIs, all in a common and simple interface, allowing you to choose the ones that fit your requirements best. The on-device APIs process data quickly and will work even when there's no network connection, while the cloud-based APIs leverage the power of Google Cloud Platform's machine learning technology to give a higher level of accuracy.
 
 [Add](https://firebase.google.com/docs/ios/setup) Firebase to your app.
 
@@ -163,6 +166,7 @@ func detect(image: UIImage) {
 }
 ```
 ### Option 2: Deploy Custom Models [Demo: FirebaseML-TensorFlowLite]
+If ML Kit's APIs don't cover your use cases, you can always bring your own existing [TensorFlow Lite](https://www.tensorflow.org/mobile/tflite) models. Just upload your model on to Firebase, and we'll take care of hosting and serving it to your app. ML Kit acts as an API layer to your custom model, making it easy to run and use.
 
 [Add](https://firebase.google.com/docs/ios/setup) Firebase to your app.
 
