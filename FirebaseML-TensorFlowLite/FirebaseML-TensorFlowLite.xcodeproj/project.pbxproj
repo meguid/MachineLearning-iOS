@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF0BECCF214C9B65005A7CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0BECCE214C9B65005A7CAE /* AppDelegate.swift */; };
+		BF0BECD1214C9B65005A7CAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0BECD0214C9B65005A7CAE /* ViewController.swift */; };
+		BF0BECD4214C9B65005A7CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0BECD2214C9B65005A7CAE /* Main.storyboard */; };
+		BF0BECD6214C9B68005A7CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0BECD5214C9B68005A7CAE /* Assets.xcassets */; };
+		BF0BECD9214C9B68005A7CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0BECD7214C9B68005A7CAE /* LaunchScreen.storyboard */; };
+		BF0BECE4214C9B68005A7CAE /* FirebaseML_TensorFlowLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0BECE3214C9B68005A7CAE /* FirebaseML_TensorFlowLiteTests.swift */; };
+		BF0BECEF214C9B68005A7CAE /* FirebaseML_TensorFlowLiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0BECEE214C9B68005A7CAE /* FirebaseML_TensorFlowLiteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF0BECE0214C9B68005A7CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0BECC3214C9B65005A7CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0BECCA214C9B65005A7CAE;
+			remoteInfo = "FirebaseML-TensorFlowLite";
+		};
+		BF0BECEB214C9B68005A7CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0BECC3214C9B65005A7CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0BECCA214C9B65005A7CAE;
+			remoteInfo = "FirebaseML-TensorFlowLite";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF0BECCB214C9B65005A7CAE /* FirebaseML-TensorFlowLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FirebaseML-TensorFlowLite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0BECCE214C9B65005A7CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF0BECD0214C9B65005A7CAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF0BECD3214C9B65005A7CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF0BECD5214C9B68005A7CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF0BECD8214C9B68005A7CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF0BECDA214C9B68005A7CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0BECDF214C9B68005A7CAE /* FirebaseML-TensorFlowLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FirebaseML-TensorFlowLiteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0BECE3214C9B68005A7CAE /* FirebaseML_TensorFlowLiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseML_TensorFlowLiteTests.swift; sourceTree = "<group>"; };
+		BF0BECE5214C9B68005A7CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0BECEA214C9B68005A7CAE /* FirebaseML-TensorFlowLiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FirebaseML-TensorFlowLiteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0BECEE214C9B68005A7CAE /* FirebaseML_TensorFlowLiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseML_TensorFlowLiteUITests.swift; sourceTree = "<group>"; };
+		BF0BECF0214C9B68005A7CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF0BECC8214C9B65005A7CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0BECDC214C9B68005A7CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0BECE7214C9B68005A7CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF0BECC2214C9B65005A7CAE = {
+			isa = PBXGroup;
+			children = (
+				BF0BECCD214C9B65005A7CAE /* FirebaseML-TensorFlowLite */,
+				BF0BECE2214C9B68005A7CAE /* FirebaseML-TensorFlowLiteTests */,
+				BF0BECED214C9B68005A7CAE /* FirebaseML-TensorFlowLiteUITests */,
+				BF0BECCC214C9B65005A7CAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF0BECCC214C9B65005A7CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF0BECCB214C9B65005A7CAE /* FirebaseML-TensorFlowLite.app */,
+				BF0BECDF214C9B68005A7CAE /* FirebaseML-TensorFlowLiteTests.xctest */,
+				BF0BECEA214C9B68005A7CAE /* FirebaseML-TensorFlowLiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF0BECCD214C9B65005A7CAE /* FirebaseML-TensorFlowLite */ = {
+			isa = PBXGroup;
+			children = (
+				BF0BECCE214C9B65005A7CAE /* AppDelegate.swift */,
+				BF0BECD0214C9B65005A7CAE /* ViewController.swift */,
+				BF0BECD2214C9B65005A7CAE /* Main.storyboard */,
+				BF0BECD5214C9B68005A7CAE /* Assets.xcassets */,
+				BF0BECD7214C9B68005A7CAE /* LaunchScreen.storyboard */,
+				BF0BECDA214C9B68005A7CAE /* Info.plist */,
+			);
+			path = "FirebaseML-TensorFlowLite";
+			sourceTree = "<group>";
+		};
+		BF0BECE2214C9B68005A7CAE /* FirebaseML-TensorFlowLiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF0BECE3214C9B68005A7CAE /* FirebaseML_TensorFlowLiteTests.swift */,
+				BF0BECE5214C9B68005A7CAE /* Info.plist */,
+			);
+			path = "FirebaseML-TensorFlowLiteTests";
+			sourceTree = "<group>";
+		};
+		BF0BECED214C9B68005A7CAE /* FirebaseML-TensorFlowLiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF0BECEE214C9B68005A7CAE /* FirebaseML_TensorFlowLiteUITests.swift */,
+				BF0BECF0214C9B68005A7CAE /* Info.plist */,
+			);
+			path = "FirebaseML-TensorFlowLiteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF0BECCA214C9B65005A7CAE /* FirebaseML-TensorFlowLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0BECF3214C9B68005A7CAE /* Build configuration list for PBXNativeTarget "FirebaseML-TensorFlowLite" */;
+			buildPhases = (
+				BF0BECC7214C9B65005A7CAE /* Sources */,
+				BF0BECC8214C9B65005A7CAE /* Frameworks */,
+				BF0BECC9214C9B65005A7CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FirebaseML-TensorFlowLite";
+			productName = "FirebaseML-TensorFlowLite";
+			productReference = BF0BECCB214C9B65005A7CAE /* FirebaseML-TensorFlowLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF0BECDE214C9B68005A7CAE /* FirebaseML-TensorFlowLiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0BECF6214C9B68005A7CAE /* Build configuration list for PBXNativeTarget "FirebaseML-TensorFlowLiteTests" */;
+			buildPhases = (
+				BF0BECDB214C9B68005A7CAE /* Sources */,
+				BF0BECDC214C9B68005A7CAE /* Frameworks */,
+				BF0BECDD214C9B68005A7CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF0BECE1214C9B68005A7CAE /* PBXTargetDependency */,
+			);
+			name = "FirebaseML-TensorFlowLiteTests";
+			productName = "FirebaseML-TensorFlowLiteTests";
+			productReference = BF0BECDF214C9B68005A7CAE /* FirebaseML-TensorFlowLiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF0BECE9214C9B68005A7CAE /* FirebaseML-TensorFlowLiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0BECF9214C9B68005A7CAE /* Build configuration list for PBXNativeTarget "FirebaseML-TensorFlowLiteUITests" */;
+			buildPhases = (
+				BF0BECE6214C9B68005A7CAE /* Sources */,
+				BF0BECE7214C9B68005A7CAE /* Frameworks */,
+				BF0BECE8214C9B68005A7CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF0BECEC214C9B68005A7CAE /* PBXTargetDependency */,
+			);
+			name = "FirebaseML-TensorFlowLiteUITests";
+			productName = "FirebaseML-TensorFlowLiteUITests";
+			productReference = BF0BECEA214C9B68005A7CAE /* FirebaseML-TensorFlowLiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF0BECC3214C9B65005A7CAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ahmed Abdel Meguid";
+				TargetAttributes = {
+					BF0BECCA214C9B65005A7CAE = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					BF0BECDE214C9B68005A7CAE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BF0BECCA214C9B65005A7CAE;
+					};
+					BF0BECE9214C9B68005A7CAE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BF0BECCA214C9B65005A7CAE;
+					};
+				};
+			};
+			buildConfigurationList = BF0BECC6214C9B65005A7CAE /* Build configuration list for PBXProject "FirebaseML-TensorFlowLite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF0BECC2214C9B65005A7CAE;
+			productRefGroup = BF0BECCC214C9B65005A7CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF0BECCA214C9B65005A7CAE /* FirebaseML-TensorFlowLite */,
+				BF0BECDE214C9B68005A7CAE /* FirebaseML-TensorFlowLiteTests */,
+				BF0BECE9214C9B68005A7CAE /* FirebaseML-TensorFlowLiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF0BECC9214C9B65005A7CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0BECD9214C9B68005A7CAE /* LaunchScreen.storyboard in Resources */,
+				BF0BECD6214C9B68005A7CAE /* Assets.xcassets in Resources */,
+				BF0BECD4214C9B65005A7CAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0BECDD214C9B68005A7CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0BECE8214C9B68005A7CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF0BECC7214C9B65005A7CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0BECD1214C9B65005A7CAE /* ViewController.swift in Sources */,
+				BF0BECCF214C9B65005A7CAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0BECDB214C9B68005A7CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0BECE4214C9B68005A7CAE /* FirebaseML_TensorFlowLiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0BECE6214C9B68005A7CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0BECEF214C9B68005A7CAE /* FirebaseML_TensorFlowLiteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF0BECE1214C9B68005A7CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0BECCA214C9B65005A7CAE /* FirebaseML-TensorFlowLite */;
+			targetProxy = BF0BECE0214C9B68005A7CAE /* PBXContainerItemProxy */;
+		};
+		BF0BECEC214C9B68005A7CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0BECCA214C9B65005A7CAE /* FirebaseML-TensorFlowLite */;
+			targetProxy = BF0BECEB214C9B68005A7CAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF0BECD2214C9B65005A7CAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0BECD3214C9B65005A7CAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF0BECD7214C9B68005A7CAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0BECD8214C9B68005A7CAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF0BECF1214C9B68005A7CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF0BECF2214C9B68005A7CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF0BECF4214C9B68005A7CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FirebaseML-TensorFlowLite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meguid.FirebaseML-TensorFlowLite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF0BECF5214C9B68005A7CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FirebaseML-TensorFlowLite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meguid.FirebaseML-TensorFlowLite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF0BECF7214C9B68005A7CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FirebaseML-TensorFlowLiteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meguid.FirebaseML-TensorFlowLiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseML-TensorFlowLite.app/FirebaseML-TensorFlowLite";
+			};
+			name = Debug;
+		};
+		BF0BECF8214C9B68005A7CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FirebaseML-TensorFlowLiteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meguid.FirebaseML-TensorFlowLiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseML-TensorFlowLite.app/FirebaseML-TensorFlowLite";
+			};
+			name = Release;
+		};
+		BF0BECFA214C9B68005A7CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FirebaseML-TensorFlowLiteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meguid.FirebaseML-TensorFlowLiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FirebaseML-TensorFlowLite";
+			};
+			name = Debug;
+		};
+		BF0BECFB214C9B68005A7CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FirebaseML-TensorFlowLiteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meguid.FirebaseML-TensorFlowLiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FirebaseML-TensorFlowLite";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF0BECC6214C9B65005A7CAE /* Build configuration list for PBXProject "FirebaseML-TensorFlowLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0BECF1214C9B68005A7CAE /* Debug */,
+				BF0BECF2214C9B68005A7CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0BECF3214C9B68005A7CAE /* Build configuration list for PBXNativeTarget "FirebaseML-TensorFlowLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0BECF4214C9B68005A7CAE /* Debug */,
+				BF0BECF5214C9B68005A7CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0BECF6214C9B68005A7CAE /* Build configuration list for PBXNativeTarget "FirebaseML-TensorFlowLiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0BECF7214C9B68005A7CAE /* Debug */,
+				BF0BECF8214C9B68005A7CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0BECF9214C9B68005A7CAE /* Build configuration list for PBXNativeTarget "FirebaseML-TensorFlowLiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0BECFA214C9B68005A7CAE /* Debug */,
+				BF0BECFB214C9B68005A7CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF0BECC3214C9B65005A7CAE /* Project object */;
+}
